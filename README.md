@@ -2,6 +2,16 @@
 
 A modern and responsive E-commerce Admin Dashboard built using React, Vite, Tailwind CSS, React Query, Axios, Recharts, and JSON Server.
 
+ ## Live Demo
+
+Frontend:
+https://ecommerce-admin-dashboard-3bmu.vercel.app/
+
+Backend API:
+https://ecommerce-admin-backend-bmuh.onrender.com
+
+---
+
  Features
 
  Dashboard Analytics
