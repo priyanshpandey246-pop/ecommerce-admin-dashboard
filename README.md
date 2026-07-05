@@ -33,9 +33,9 @@ A modern and responsive E-commerce Admin Dashboard built using React, Vite, Tail
   - Status Badges
 
  Responsive Design
-- ⚡ Skeleton Loaders
-- 🔄 React Query API Integration
-- 🎨 Clean Admin UI
+- Skeleton Loaders
+- React Query API Integration
+- Clean Admin UI
 
 ---
 
