@@ -3,7 +3,7 @@ import {
   fetchOrders,
   deleteOrder,
   updateOrder,
-} from "../api/dashboardApi";
+} from "../api/dashboardApi.js";
 
 export default function Orders() {
   const queryClient = useQueryClient();

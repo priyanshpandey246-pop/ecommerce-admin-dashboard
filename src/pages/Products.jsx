@@ -6,7 +6,7 @@ import {
   deleteProduct,
   addProduct,
   updateProduct,
-} from "../api/dashboardApi";
+} from "../api/dashboardApi.js";
 
 export default function Products() {
   const queryClient = useQueryClient();

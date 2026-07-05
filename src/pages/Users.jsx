@@ -9,7 +9,7 @@ import {
   addUser,
   deleteUser,
   updateUser,
-} from "../api/dashboardApi";
+} from "../api/dashboardApi.js";
 
 export default function Users() {
   const userSchema = z.object({

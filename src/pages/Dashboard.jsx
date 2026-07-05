@@ -3,7 +3,7 @@ import SalesChart from "../components/charts/SalesChart";
 import RevenueBarChart from "../components/charts/RevenueBarChart";
 import RecentOrders from "../components/ui/RecentOrders";
 import { useQuery } from "@tanstack/react-query";
-import { fetchStats } from "../api/dashboardApi";
+import { fetchStats } from "../api/dashboardApi.js";
 export default function Dashboard() { 
 
       const { data, isLoading, error } = useQuery({
