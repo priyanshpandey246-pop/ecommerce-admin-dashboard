@@ -1,16 +1,111 @@
-# React + Vite
+# E-commerce Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive E-commerce Admin Dashboard built using React, Vite, Tailwind CSS, React Query, Axios, Recharts, and JSON Server.
 
-Currently, two official plugins are available:
+ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ Dashboard Analytics
+  - KPI Cards
+  - Sales Overview Line Chart
+  - Revenue Comparison Bar Chart
+  - Recent Orders
 
-## React Compiler
+ Products Management
+  - Add Product
+  - Edit Product
+  - Delete Product
+  - Search
+  - Sorting
+  - Pagination
+  - Stock Status Badges
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  Users Management
+  - Add User
+  - Edit User
+  - Delete User
+  - Zod Validation
+  - Role Badges
 
-## Expanding the ESLint configuration
+ Orders Management
+  - Orders Table
+  - Change Order Status
+  - Delete Orders
+  - Status Badges
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Responsive Design
+- ⚡ Skeleton Loaders
+- 🔄 React Query API Integration
+- 🎨 Clean Admin UI
+
+---
+
+Tech Stack
+
+- React 19
+- Vite
+- Tailwind CSS
+- React Router
+- React Query
+- Axios
+- Recharts
+- React Hook Form
+- Zod
+- JSON Server
+
+---
+
+Project Structure
+
+```
+src/
+│
+├── api/
+├── components/
+│   ├── charts/
+│   └── ui/
+├── layout/
+├── pages/
+├── hooks/
+└── main.jsx
+```
+
+---
+
+Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/priyanshpandey246-pop/ecommerce-admin-dashboard.git
+```
+
+Go to project folder
+
+```bash
+cd ecommerce-admin-dashboard
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start React application
+
+```bash
+npm run dev
+```
+
+Start JSON Server
+
+```bash
+npm run server
+```
+
+## 👨‍💻 Author
+
+Priyansh Pandey
+
+GitHub:
+https://github.com/priyanshpandey246-pop
