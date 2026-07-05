@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "revenue": 24500,
+    "orders": 1230,
+    "users": 890,
+    "products": 320
+  },
+  "sales": [
+    {
+      "month": "Jan",
+      "sales": 10000,
+      "id": "7WpQ6D4zAU0"
+    },
+    {
+      "month": "Feb",
+      "sales": 3000,
+      "id": "avBn7eZXTFE"
+    },
+    {
+      "month": "Mar",
+      "sales": 5000,
+      "id": "56pt8YW0NWs"
+    },
+    {
+      "month": "Apr",
+      "sales": 4000,
+      "id": "5wPUQqR2HwQ"
+    },
+    {
+      "month": "May",
+      "sales": 6000,
+      "id": "ZSSrp7VrhMQ"
+    },
+    {
+      "month": "Jun",
+      "sales": 7000,
+      "id": "zOBhLKEmaPI"
+    }
+  ],
+  "products": [
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S23",
+      "price": 64999,
+      "stock": 10
+    },
+    {
+      "id": "3",
+      "name": "AirPods Pro",
+      "price": 25000,
+      "stock": 20
+    },
+    {
+      "name": "Apple watch",
+      "price": 10000,
+      "stock": 5,
+      "id": "kZ9_ppci6HY"
+    },
+    {
+      "name": "Samsung galaxy",
+      "price": 25000,
+      "stock": 5,
+      "id": "pAVvlgFk41M"
+    },
+    {
+      "name": "Realme ",
+      "price": 15000,
+      "stock": 50,
+      "id": "Qi-Cwo8a6zg"
+    },
+    {
+      "name": "XIOMI",
+      "price": 30000,
+      "stock": 100,
+      "id": "xzYsUeb2PjU"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Priyansh Pandey",
+      "email": "priyansh@gmail.com",
+      "role": "admin"
+    },
+    {
+      "name": "Anita Verma",
+      "email": "niharika@gmail.com",
+      "role": "user",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Karan Mehta",
+      "email": "karan@gmail.com",
+      "role": "user"
+    },
+    {
+      "name": "Rahul sharma",
+      "email": "rahul@gmail.com",
+      "role": "user",
+      "id": "miRVVZhVdrY"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customer": "Rahul Sharma",
+      "total": 24500,
+      "status": "shipped"
+    },
+    {
+      "id": "2",
+      "customer": "Anita Verma",
+      "total": 12999,
+      "status": "delivered"
+    },
+    {
+      "id": "3",
+      "customer": "Karan Mehta",
+      "total": 8900,
+      "status": "pending"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
