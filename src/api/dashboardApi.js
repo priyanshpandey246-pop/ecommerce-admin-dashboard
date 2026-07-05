@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000";
+const API = "https://ecommerce-admin-backend-bmuh.onrender.com";
 
 export const fetchStats = async () => {
   const res = await axios.get(`${API}/stats`);
